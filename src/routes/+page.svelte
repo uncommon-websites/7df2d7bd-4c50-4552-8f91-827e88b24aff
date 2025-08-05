@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Transform your expertise into an AI-powered digital mind"
+	subtitle="Join coaches and consultants scaling personalized guidance to thousands while you sleep. Turn knowledge into 24/7 revenue streams."
+	imageSrc="/generated/image-a-professional-business-coach-is-engagin.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Create your digital mind"
+		},
+		{
+			href: "/demo",
+			label: "Watch demo"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/masterclass.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/coursera.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/mindvalley.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/udemy.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
