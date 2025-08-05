@@ -36,62 +36,85 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Scaling wisdom, one digital mind at a time"
+	text="Delphi transforms coaches and consultants into AI-powered digital minds that provide personalized guidance 24/7. Train your AI on your expertise, reach thousands of clients simultaneously, and generate passive income while preserving the authentic conversational style that makes your advice invaluable."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Chen",
+			position: "Executive Business Coach",
+			company: "Peak Performance Consulting",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"My Delphi clone handles 200+ client consultations monthly while I sleep. I've recovered 40 hours per week and increased revenue by 180% without sacrificing the personal touch my clients expect.",
+			image: "/generated/image-professional-headshot-of-marcus-chen-a-c.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Elena Rodriguez",
+			position: "Leadership Development Expert",
+			company: "Transform Leadership Institute",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I was turning away $75K in coaching requests annually due to time constraints. Now my digital mind serves clients 24/7, generating $45K monthly in passive income while maintaining authentic conversations.",
+			image: "/generated/image-professional-headshot-of-elena-rodriguez.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "David Thompson",
+			position: "Career Transition Specialist",
+			company: "NextLevel Career Solutions",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Delphi eliminated the risk of losing my expertise when I took a sabbatical. My digital clone maintained client relationships and generated $28K in revenue during my 3-month break, proving business continuity is possible.",
+			image: "/generated/image-professional-headshot-of-david-thompson-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Scale your expertise beyond physical limits"
+	subtitle="Transform your knowledge into an AI-powered digital mind that serves clients 24/7, speaks their language, and generates passive income while you focus on what matters most."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Authentic conversational AI",
+			description: "Your digital mind speaks only your words, never improvising, preserving the authentic voice and wisdom that makes your guidance invaluable."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Multi-modal client engagement", 
+			description: "Reach clients through chat, voice calls, video calls, SMS, WhatsApp, Slack, and Zoom—meeting them wherever they prefer to connect."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Passive revenue generation",
+			description: "Turn your expertise into 24/7 income streams through memberships, paid conversations, and product upselling while you sleep."
+		},
+		{
+			title: "Real-time knowledge updates",
+			description: "Your digital mind continuously learns from your latest content, podcasts, videos, and live feeds to stay current with your evolving expertise."
+		},
+		{
+			title: "Global accessibility",
+			description: "Serve clients across 40+ languages and time zones, breaking down barriers that previously limited your reach to local markets."
+		},
+		{
+			title: "Complete ownership and privacy",
+			description: "Your digital mind belongs entirely to you—securely stored, fully encrypted, never shared or sold, with complete control over interactions."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop turning away $50K+ in coaching revenue"
+	subtitle="Your digital mind starts working in 24 hours"
+	description="Join 2,400+ coaches who've eliminated client waitlists and scaled their expertise 24/7. While competitors limit themselves to 1-on-1 sessions, your AI clone serves unlimited clients simultaneously—preserving your authentic voice and generating passive income while you sleep."
+	imageSrc="/generated/image-a-successful-business-coach-dressed-in-p.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Create your digital mind now",
+			variant: "primary"
+		},
+		{
+			href: "/demo",
+			label: "See authentic AI in action",
+			variant: "secondary"
+		}
+	]}
+/>

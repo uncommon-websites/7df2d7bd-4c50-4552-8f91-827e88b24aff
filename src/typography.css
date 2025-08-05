@@ -33,6 +33,7 @@
 	.text-title3,
 	.text-headline {
 		@apply font-[450];
+		font-family: var(--font-display);
 		letter-spacing: -0.015em !important;
 	}
 

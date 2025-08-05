@@ -54,7 +54,7 @@
 					<!-- Content -->
 					<div class="text-caption z-10">
 						<div>
-							<div class="text-headline mb-[1em]">{value.title}</div>
+							<div class="text-headline mb-4">{value.title}</div>
 							<div class="text-body text-gray-500 dark:text-gray-400">{value.description}</div>
 						</div>
 					</div>

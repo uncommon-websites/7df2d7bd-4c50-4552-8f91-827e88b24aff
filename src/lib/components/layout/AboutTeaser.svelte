@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Dara Ladjevardian",
+		role: "Co-Founder & CEO",
+		image: "/generated/image-a-professional-headshot-of-dara-ladjevar.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After watching my grandfather lose his voice to a stroke, I realized we're all walking libraries of wisdom that could vanish in an instant. Delphi was born from this profound loss—and the discovery that AI could preserve and share the guidance we desperately need."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
@@ -47,7 +47,7 @@ A minimalist teaser for the about page.
 						<div class="text-callout">{teamMember.name}</div>
 						<div class="text-caption text-emphasis-low">{teamMember.role}</div>
 					</div>
-					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read more</Button>
+					<Button href="/about" variant="secondary" size="sm" class="ml-8">Our story</Button>
 				</div>
 			</div>
 		</div>

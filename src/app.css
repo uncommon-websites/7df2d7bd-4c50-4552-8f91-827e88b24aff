@@ -1,5 +1,5 @@
-/* Do not modify this file, as it is generated. */
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 @import "./base.css";
 @import "./typography.css";
@@ -7,43 +7,52 @@
 @import "./theme.css";
 
 @theme {
-	/* Colors */
-	--color-gray-50: oklch(0.985 0.001 106.423);
-	--color-gray-100: oklch(0.97 0.001 106.424);
-	--color-gray-200: oklch(0.923 0.003 48.717);
-	--color-gray-300: oklch(0.869 0.005 56.366);
-	--color-gray-400: oklch(0.709 0.01 56.259);
-	--color-gray-500: oklch(0.553 0.013 58.071);
-	--color-gray-600: oklch(0.444 0.011 73.639);
-	--color-gray-700: oklch(0.374 0.01 67.558);
-	--color-gray-800: oklch(0.268 0.007 34.298);
-	--color-gray-900: oklch(0.216 0.006 56.043);
-	--color-gray-950: oklch(0.147 0.004 49.25);
+/* Colors */
+--color-gray-50: oklch(0.985 0.001 106.423);
+--color-gray-100: oklch(0.97 0.001 106.424);
+--color-gray-200: oklch(0.923 0.003 48.717);
+--color-gray-300: oklch(0.869 0.005 56.366);
+--color-gray-400: oklch(0.709 0.01 56.259);
+--color-gray-500: oklch(0.553 0.013 58.071);
+--color-gray-600: oklch(0.444 0.011 73.639);
+--color-gray-700: oklch(0.374 0.01 67.558);
+--color-gray-800: oklch(0.268 0.007 34.298);
+--color-gray-900: oklch(0.216 0.006 56.043);
+--color-gray-950: oklch(0.147 0.004 49.25);
+/* Delphi Brand Colors - Ethereal Tech Aesthetic */
+--color-primary-50: oklch(0.98 0.03 295);     /* #EFEAFF - Very light purple */
+--color-primary-100: oklch(0.96 0.05 295);    /* Lighter tint */
+--color-primary-200: oklch(0.92 0.08 295);    /* Light tint */
+--color-primary-300: oklch(0.85 0.12 295);    /* Medium light */
+--color-primary-400: oklch(0.75 0.18 295);    /* Medium */
+--color-primary-500: oklch(0.65 0.22 295);    /* Medium dark */
+--color-primary-600: oklch(0.55 0.26 295);    /* #8A4FFF - Main purple */
+--color-primary-700: oklch(0.45 0.22 295);    /* Darker */
+--color-primary-800: oklch(0.35 0.18 295);    /* Very dark */
+--color-primary-900: oklch(0.25 0.14 295);    /* Darkest */
+--color-primary-950: oklch(0.15 0.10 295);    /* Deepest */
+--color-secondary-50: oklch(0.99 0.01 25);     /* #FFF1E8 - Very light peach */
+--color-secondary-100: oklch(0.96 0.03 25);    /* Light peach */
+--color-secondary-200: oklch(0.92 0.05 25);    /* Soft peach */
+--color-secondary-300: oklch(0.86 0.08 25);    /* Medium peach */
+--color-secondary-400: oklch(0.78 0.12 25);    /* Warm peach */
+--color-secondary-500: oklch(0.68 0.16 25);    /* #FF896C - Coral accent */
+--color-secondary-600: oklch(0.58 0.14 25);    /* Medium coral */
+--color-secondary-700: oklch(0.48 0.12 25);    /* Dark coral */
+--color-secondary-800: oklch(0.38 0.10 25);    /* Darker */
+--color-secondary-900: oklch(0.28 0.08 25);    /* Very dark */
+--color-secondary-950: oklch(0.18 0.05 25);    /* #2A2A2A - Deep gray */
 
-	--color-primary-50: oklch(0.982 0.018 155.826);
-	--color-primary-100: oklch(0.962 0.044 156.743);
-	--color-primary-200: oklch(0.925 0.084 155.995);
-	--color-primary-300: oklch(0.871 0.15 154.449);
-	--color-primary-400: oklch(0.792 0.209 151.711);
-	--color-primary-500: oklch(0.723 0.219 149.579);
-	--color-primary-600: oklch(0.627 0.194 149.214);
-	--color-primary-700: oklch(0.527 0.154 150.069);
-	--color-primary-800: oklch(0.448 0.119 151.328);
-	--color-primary-900: oklch(0.393 0.095 152.535);
-	--color-primary-950: oklch(0.266 0.065 152.934);
+/* Delphi Typography - Ethereal Tech Aesthetic */
+--font-family: "Inter";
+--font-display-family: "Playfair Display"; 
+--font-fallback: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+--font-serif-fallback: "Times New Roman", serif;
+--font-body: var(--font-family), var(--font-fallback);
+--font-display: var(--font-display-family), var(--font-serif-fallback);
 
-	--color-secondary-50: oklch(97% 0.015 30);
-	--color-secondary-100: oklch(92% 0.02 30);
-	--color-secondary-200: oklch(86% 0.03 30);
-	--color-secondary-300: oklch(80% 0.04 30);
-	--color-secondary-400: oklch(74% 0.05 30);
-	--color-secondary-500: oklch(68% 0.06 30);
-	--color-secondary-600: oklch(60% 0.07 30);
-	--color-secondary-700: oklch(52% 0.08 30);
-	--color-secondary-800: oklch(40% 0.09 30);
-	--color-secondary-900: oklch(30% 0.1 30);
-	--color-secondary-950: oklch(20% 0.11 30);
-
-	--font-body: var(--font-family), var(--font-fallback);
-	--font-display: var(--font-body);
+/* Delphi Accent Colors */
+--color-accent-purple: oklch(0.75 0.18 295);   /* #D27BFF */
+--color-accent-coral: oklch(0.72 0.16 25);     /* #FF896C */ 
+--color-accent-yellow: oklch(0.88 0.12 85);    /* #FFDD57 */
 }

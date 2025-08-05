@@ -11,94 +11,62 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Preserve wisdom",
+			description: "Born from a grandson's desire to access his grandfather's knowledge, we believe every expert's wisdom deserves digital immortality, ensuring guidance transcends time and physical limitations."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Democratize expertise",
+			description: "From coaches turning away $50K+ in clients to millions seeking mentorship, we're breaking down barriers between exceptional expertise and those who need it most."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Authentic voices",
+			description: "Our digital minds speak only the creator's authentic words across 40+ languages, preserving personality and expertise without artificial improvisation or generic responses."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Preserving wisdom for generations"
+	subtitle="Born from a grandson's longing to connect with his grandfather's knowledge, Delphi transforms how we access and share human expertise across time and distance."
+	imageSrc="/generated/image-two-entrepreneurs-engaged-in-a-lively-di.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"It started with a profound loss and the crushing reality of isolation. When co-founder Dara Ladjevardian's grandfather suffered a stroke, decades of wisdom from a successful pre-revolution Iranian businessman became unreachable. As a solo founder navigating uncertainty, Dara discovered the painful truth that millions face: the people we need guidance from most are often the least accessible. This personal crisis revealed a universal problem – exceptional expertise trapped in individual minds, leaving those who need it most to struggle alone.",
+		"What began as a desperate attempt to reconnect with lost wisdom evolved into something revolutionary. Using AI to create a digital version of his grandfather for personalized advice, Dara experienced the first glimpse of what would become Delphi. Together with co-founder Sam Spelsberg, they embarked on a mission to democratize access to the world's greatest minds. From processing 100,000 words to unlimited content, from simple chat to multi-modal interactions across 40+ languages, they built a platform that transforms how expertise flows from those who have it to those who need it most.",
+		"Today, Delphi serves as a modern Oracle – not dispensing one-size-fits-all prophecies, but providing personalized guidance from experts like Ben Greenfield, Keith Rabois, and thousands of other thought leaders. We're creating digital minds that preserve human wisdom at scale, turning the $366 billion professional services market into a more accessible, personal experience. Every coach, consultant, and expert who builds their digital mind with us doesn't just scale their business – they extend their legacy, ensuring their knowledge continues to guide and inspire long after they're gone."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Our founders."
+	subtitle="The minds behind democratizing wisdom."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Dara Ladjevardian",
+			position: "Co-Founder & CEO",
+			bio: "First-generation American with Iranian immigrant parents who experienced crushing loneliness as a solo founder. After his grandfather's stroke left decades of business wisdom unreachable, Dara created the first digital mind to preserve and access that knowledge—sparking the vision for Delphi.",
+			image: "/generated/image-a-middle-eastern-american-business-execu.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Sam Spelsberg",
+			position: "Co-Founder",
+			bio: "Visionary co-founder dedicated to democratizing access to personalized mentorship and wisdom at scale. Partners with Dara to solve the fundamental challenge of making expert guidance accessible to everyone who needs it.",
+			image: "/generated/image-a-young-tech-entrepreneur-with-a-warm-sm.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Turn expertise into legacy"
+	subtitle="Create your digital mind today"
+	description="Join visionaries like Ben Greenfield, Matthew Hussey, and Keith Rabois who've discovered the secret to scaling wisdom—preserving their expertise in digital minds that provide personalized guidance 24/7, in 40+ languages, ensuring their knowledge never stops helping others."
 />
